@@ -1,0 +1,21 @@
+name,email,phone_number,area_code,address,role,servicecategory_id,experience
+Aarav Patel,aarav.patel@hxpert.co,9830012345,500030,"12 Green Street, Hyderabad, Telangana",customer
+Emily Johnson,emily.johnson@hxpert.co,3105551234,90210,"123 Maple Street, Los Angeles, CA",customer
+Rohan Gupta,rohan.gupta@hxpert.co,9820094321,500029,"56 Red Road, Secunderabad, Telangana",customer
+Olivia Brown,olivia.brown@hxpert.co,2125555678,10001,"456 Oak Avenue, New York, NY",customer
+Meera Sharma,meera.sharma@hxpert.co,9810087654,500031,"78 Yellow Lane, Begumpet, Telangana",customer
+Michael Smith,michael.smith@hxpert.co,4155558765,94110,"789 Pine Street, San Francisco, CA",customer
+Karthik Nair,karthik.nair@hxpert.co,9870096543,500028,"90 Pink Path, Gachibowli, Telangana",customer
+Sophia Davis,sophia.davis@hxpert.co,3125552345,60601,"234 Elm Road, Chicago, IL",customer
+Vikram Singh,vikram.singh@hxpert.co,9890065432,500034,"45 Orange Street, Jubilee Hills, Telangana",customer
+Liam Martinez,liam.martinez@hxpert.co,3055553456,33101,"567 Cedar Avenue, Miami, FL",customer
+Deepak Kumar,deepak.kumar@hxpert.co,9819098765,500038,"123 Broadway Lane, Hyderabad, Telangana",professional,1,10
+Susan Miller,susan.miller@hxpert.co,3105559876,90211,"456 Caretaker Avenue, Los Angeles, CA",professional,2,20
+Anjali Singh,anjali.singh@hxpert.co,9821034567,500039,"789 Service Street, Secunderabad, Telangana",professional,3,30
+James Wilson,james.wilson@hxpert.co,2125554321,10002,"321 Housekeeper Road, New York, NY",professional,4,4
+Priya Desai,priya.desai@hxpert.co,9832045678,500040,"654 Domestic Drive, Begumpet, Telangana",professional,5,5
+Mary Johnson,mary.johnson@hxpert.co,7155558765,94111,"987 Cleaning Street, San Francisco, CA",professional,1,15
+Rakesh Nair,rakesh.nair@hxpert.co,9843056789,500041,"123 Homecare Avenue, Gachibowli, Telangana",professional,2,25
+Linda Davis,linda.davis@hxpert.co,3125556543,60602,"234 Maintenance Lane, Chicago, IL",professional,3,35
+Amit Gupta,amit.gupta@hxpert.co,9894067890,500042,"789 Caregiver Road, Jubilee Hills, Telangana",professional,4,45
+Nancy Martinez,nancy.martinez@hxpert.co,3055557654,33102,"321 Service Path, Miami, FL",professional,5,15
