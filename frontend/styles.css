@@ -1,0 +1,163 @@
+:root {
+    --dynamic-image-url: url('/static/images/default-image.jpg');
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/images/hss_background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.carddynamic{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.carddynamic:hover{
+    transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.carddynamic h3{
+font-weight: 600;
+}
+
+.carddynamic img{
+position: absolute;
+top: 20px;
+right: 15px;
+max-height: 120px;
+}
+
+.carddynamic-background{
+    background-image: url(/static/images/ionic-native-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+  
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  } 
+
+.text-warning {
+    font-size: 20px;
+}
+
+.text-success {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.popup-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    inset: 0;
+    z-index: 10000;
+}
+
+.window {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 480px;
+    max-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+ .carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto; 
+    min-height: 90vh;
+    background-color: #333;
+}
+
+.carousel-heading {
+    color: #fff; 
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    height: 500px;
+ }
+ 
+ .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+ }
+
+ #carouselCaptions {
+    width: 80%; 
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+ }
+   
+ .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+ }
+ 
+ @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+ }
+ 
+ input.is-valid {
+    border-color: #28a745;
+  }
+  input.is-invalid {
+    border-color: #dc3545;
+  }

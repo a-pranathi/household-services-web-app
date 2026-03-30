@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Booking Information{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <div>
+            <h3> Your household service Booking stautus...</h3>
+            <h4> Dear {{ recipient_name }},</h4>
+            <p>Thank you for your interest in Household services. Following is information about your service booking:</p>
+            <p><b>Booking id:</b> {{booking.id}}</p>
+            <p><b>Service Category:</b> {{booking.service.servicecategory.name}}  </p>
+            <p><b>Service Name:</b> {{booking.service.name}}</p>
+            <p><b>Professional Name:</b> {{booking.professional.name}}</p>
+            <p><b>Booking Date:</b> {{booking.booking_date}}</p>
+            <p><b>Service Date:</b> {{booking.service_date}}</p>
+            <p><b>Booking Remarks:</b> {{booking.remarks}}</p>
+            <p><b>Status:</b> {{booking.status}}</p>
+            <p><b>Rating:</b> {{booking.review.rating}}</p>
+            <p><b>Rating Remarks:</b> {{booking.review.remarks}}</p>                        
+        </div>
+    </div>
+{% endblock %} 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+
+            header {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+            }
+
+            header img {
+                background-color: white; 
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+
+            .company-name {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .content div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+                        
+            .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 30px;
+            }
+        </style>
+        <title>{% block title %}{% endblock %}</title>       
+    </head>
+    <body>
+        <header>
+            <img src="http://localhost:5000/static/images/favicon.ico" alt="Household Services">
+            <div class="company-name">Household Services</div>
+        </header>
+        {% block body %}
+            <h1>Hello world results!</h1>
+        {% endblock %}                
+        <div class="footer">
+            <p>If you did not request this email, please contact the system administrator at admin@hss.co.</p>
+        </div>
+    </body>
+</html>
